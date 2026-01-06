@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Reko</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .privacy-content {
+            padding: 120px 20px 60px;
+            max-width: 800px;
+            margin: 0 auto;
+            color: var(--text-color);
+        }
+        .privacy-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: var(--primary-color);
+        }
+        .privacy-content h2 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: var(--secondary-color);
+        }
+        .privacy-content p {
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        .privacy-content ul {
+            margin-bottom: 1rem;
+            padding-left: 20px;
+        }
+        .privacy-content li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none; display: flex; align-items: center; color: inherit;">
+                    <img src="assets/reko-icon.png" alt="Reko" class="logo-icon">
+                    <span class="logo-text">Reko</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html#features">Features</a></li>
+                <li><a href="index.html#how-it-works">How It Works</a></li>
+                <li><a href="index.html#download">Download</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Privacy Content -->
+    <section class="privacy-content">
+        <h1>Privacy Policy</h1>
+        <p>Last updated: January 2026</p>
+
+        <p>At Reko, we believe your data belongs to you. This Privacy Policy explains how we handle your information when you use our app.</p>
+
+        <h2>1. Data Collection</h2>
+        <p><strong>We do not collect, store, or sell your personal data.</strong></p>
+        <p>Reko is designed to function entirely locally on your device. Every movie you add to your watchlist, every rating you give, and every preference you set is stored securely on your own iPhone using iOS's native storage systems (UserDefaults and SwiftData).</p>
+        <p>We do not have servers that store user accounts, and we do not track your usage behavior.</p>
+
+        <h2>2. Third-Party Services</h2>
+        <p>Reko uses <strong>The Movie Database (TMDB) API</strong> to fetch information about movies and TV shows (images, descriptions, cast lists, etc.).</p>
+        <ul>
+            <li>When you search for a title or view details, the app sends a request to TMDB servers to retrieve that specific information.</li>
+            <li>We do not send any personally identifiable information (PII) to TMDB.</li>
+            <li>Use of TMDB services is subject to <a href="https://www.themoviedb.org/privacy-policy" target="_blank">TMDB's Privacy Policy</a>.</li>
+        </ul>
+
+        <h2>3. Analytics</h2>
+        <p>We do not use third-party analytics services (like Google Analytics, Firebase, or Mixpanel) inside the Reko app to track user behavior.</p>
+
+        <h2>4. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+        <p><a href="mailto:reko.cloud@gmail.com">reko.cloud@gmail.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Reko</h4>
+                <p>Your personalised movie and TV show recommendation engine</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html#features">Features</a></li>
+                    <li><a href="index.html#how-it-works">How It Works</a></li>
+                    <li><a href="index.html#download">Download</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Creator</h4>
+                <p><a href="https://oli-mebberson.is-cool.dev/" target="_blank">oli.dev</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p><a href="mailto:reko.cloud@gmail.com">Get in touch</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Reko. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8LEGJGP5PD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-8LEGJGP5PD');
+    </script>
+</body>
+</html>
